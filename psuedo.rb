@@ -47,12 +47,12 @@ describe "read / write files" do
 
 	end
 
-	it "verifies all of the lines are being read" do
+	it "verifies all of the lines are being read and converted to a hash" do
 		# Exercise
 		result = readLines("testread.txt")
 
 		# Verify
-		expect(result).to eq(8)
+		expect(result).to eq( {some hash value})
 
 	end
 
